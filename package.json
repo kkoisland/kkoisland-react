@@ -44,6 +44,23 @@
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.31.8",
+    "prettier": "2.7.1",
+    "stylelint": "^14.13.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^28.0.0",
     "typescript": "^4.8.4"
-  }
+  },
+  "description": "```ts Start: npm i npm start  or yarn start http://localhost:3000",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkoisland/kkoisland-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkoisland/kkoisland-react/issues"
+  },
+  "homepage": "https://github.com/kkoisland/kkoisland-react#readme"
 }
