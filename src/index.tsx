@@ -1,19 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React, { ReactElement } from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
 
 // App.tsx
-function App() {
-
+function App (): ReactElement {
   return (
     <div>
       Welcome!
     </div>
-  );
+  )
 }
 
 ReactDOM.render(
       <App />,
-  document.getElementById('root')
-);
-
+      document.getElementById('root')
+)
