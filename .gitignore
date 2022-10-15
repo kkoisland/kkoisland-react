@@ -1,4 +1,6 @@
 # NPM and BUNDLE #
-node_modules/
+node_modules
+dist
+build
 # OS generated files #
 .DS_Store

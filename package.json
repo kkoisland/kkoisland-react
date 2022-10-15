@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode=development",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "npx eslint src/ --ext jsx,js,tsx,ts",
@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "eslint": "^8.24.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
@@ -50,7 +52,9 @@
     "stylelint": "^14.13.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^28.0.0",
-    "typescript": "^4.8.4"
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack-cli": "^4.10.0"
   },
   "description": "```ts Start: npm i npm start  or yarn start http://localhost:3000",
   "repository": {

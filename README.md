@@ -1,23 +1,35 @@
 
 
 ```ts
-Start:
+// Clone:
+git clone https://github.com/kkoisland/kkoisland-react.git
+
+// Start:
 npm i
 npm start  or yarn start
 http://localhost:3000
 
-Examples:
+// build:
+npm run build
+
+// comandline examples:
 npm install @mui/material
 npm uninstall @mui/material
-
-npm install react-redux
 
 npm install typescript
 npm uninstall typescript
 
-Creaet react app:
+// Creaet react app:
 npx create-react-app my-app
 
-Clone:
-git clone https://github.com/kkoisland/kkoisland-react.git
+// install webpack cli:
+npm i -D webpack webpack-cli typescript ts-loader 
+npm uninstall webpack
+package.json  "build": "webpack --mode=development",
+touch webpack.config.js
+npm run build
+
+// installed:
+npm install react-redux
+npm i -D @types/react @types/react-dom // 型定義パッケージ
 ```
