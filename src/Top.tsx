@@ -7,11 +7,11 @@ const Top = (): ReactElement => {
       Welcome Top page!
     </div>
     <ul>
-      <Link to="/profile">Profile</Link>
-      {/* <Link to="/github">Github</Link>
-      <Link to="/linkedin">Linked In</Link>
-      <Link to="/twitter">Twitter</Link>
-      <Link to="/blog">Blog</Link> */}
+    <li><Link to="/profile">Profile</Link></li>
+    <li><a href="https://github.com/kkoisland" target="_blank" rel="noreferrer">Github</a></li>
+    <li><a href="https://www.linkedin.com/in/keiko-higuchi-b554449/" target="_blank" rel="noreferrer">Linked In</a></li>
+    <li><a href="https://twitter.com/kkoisland" target="_blank" rel="noreferrer">Twitter</a></li>
+    <li><Link to="/blogpast">Past Blog</Link></li>
     </ul></>
   )
 }

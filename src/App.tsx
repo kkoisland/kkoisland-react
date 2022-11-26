@@ -1,21 +1,20 @@
 import React, { ReactElement } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Header from './Header'
 import Top from './Top'
 import Profile from './Profile'
+import BlogPast from './BlogPast'
 
 const App = (): ReactElement => {
-// const App = (): ReactElement => {
   return (
     <BrowserRouter>
     <div className="main-page">
+      <Header />
         <Routes>
             <Route path="/" element={<Top/>} />
             <Route path="/profile" element={<Profile/>} />
-            {/* <Route path="/github" component={Github} />
-            <Route path="/linkedin" component={LinkedIn} />
-            <Route path="/twitter" component={Twitter} />
-            <Route path="/blog" component={Blog} />
-            <Route component={NotFoundPage} /> */}
+            <Route path="/blogpast" element={<BlogPast/>} />
+            {/* <Route element={NotFoundPage} /> */}
         </Routes>
     </div>
     </BrowserRouter>
