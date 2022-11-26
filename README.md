@@ -32,4 +32,5 @@ npm run build
 // installed:
 npm install react-redux
 npm i -D @types/react @types/react-dom // 型定義パッケージ
+npm install --save react-router-dom //react-routerも入っている
 ```
