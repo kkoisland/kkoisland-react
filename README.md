@@ -29,8 +29,15 @@ package.json  "build": "webpack --mode=development",
 touch webpack.config.js
 npm run build
 
+// lint
+npm run lint
+npm run lint-fix
+
 // installed:
 npm install react-redux
 npm i -D @types/react @types/react-dom // 型定義パッケージ
 npm install --save react-router-dom //react-routerも入っている
+npm install @fortawesome/react-fontawesome // Icons: Github, Twitter, LinkedIn
+npm install @fortawesome/fontawesome-svg-core // Icons: Github, Twitter, LinkedIn
+npm install @fortawesome/free-brands-svg-icons // Icons: Github, Twitter, LinkedIn
 ```
