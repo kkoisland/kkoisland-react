@@ -40,4 +40,6 @@ npm install --save react-router-dom //react-routerも入っている
 npm install @fortawesome/react-fontawesome // Icons: Github, Twitter, LinkedIn
 npm install @fortawesome/fontawesome-svg-core // Icons: Github, Twitter, LinkedIn
 npm install @fortawesome/free-brands-svg-icons // Icons: Github, Twitter, LinkedIn
+npm install -d styled-components
+npm i --save-dev @types/styled-components
 ```
