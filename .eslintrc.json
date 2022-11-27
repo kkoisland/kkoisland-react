@@ -6,6 +6,7 @@
     },
     "extends": [
         "plugin:react/recommended",
+        // "standard"
         "standard-with-typescript"
     ],
     "overrides": [
@@ -24,6 +25,6 @@
         "react"
     ],
     "rules": {
-        // "semi": [1, "never"]
+        // "semi": [1, "always"]
     }
 }
