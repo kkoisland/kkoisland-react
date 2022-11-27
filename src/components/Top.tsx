@@ -2,15 +2,17 @@ import React, { ReactElement } from 'react'
 import { Link } from 'react-router-dom'
 
 const Top = (): ReactElement => {
+  const contentStyle: React.CSSProperties = { padding: '0 10px', fontSize: 20 }
   return (
-  <><div>
-      Hello, this is Top page, contents are hrere:
-    </div>
-    <ul>
-    <li><Link to="/profile">Profile</Link></li>
-    <li><Link to="/post1">Post1</Link></li>
-    <li><Link to="/blogpast">Past Blog</Link></li>
-    </ul></>
+    <>
+      <div style={{ textAlign: 'center', padding: '30px' }}>
+        <h3>Hello, I am a Front-end software engineer based in San Francisco Bay
+        Area.</h3>
+        <Link to="/profile" style={contentStyle}>About</Link>
+        <Link to="/post1" style={contentStyle}>Articles</Link>
+        <Link to="/blogpast" style={contentStyle}>Past Blog</Link>
+      </div>
+    </>
   )
 }
 
