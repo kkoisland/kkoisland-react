@@ -4,7 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Header = (): ReactElement => {
-  const iconStyle: React.CSSProperties = { padding: '0 10px', fontSize: 20 }
+  const iconStyle: React.CSSProperties = {
+    padding: '0 10px',
+    fontSize: '20px',
+    textDecoration: 'none',
+    color: 'black'
+  }
   return (
     <>
       <div style={{ textAlign: 'right', padding: '0 10px' }}>
