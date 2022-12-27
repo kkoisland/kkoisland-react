@@ -33,9 +33,6 @@ npm run build
 npm run lint
 npm run lint-fix
 
-// generator
-npm run generate // svg generator
-
 // installed:
 npm install react-redux
 npm i -D @types/react @types/react-dom // 型定義パッケージ
@@ -45,6 +42,4 @@ npm install @fortawesome/fontawesome-svg-core // Icons: Github, Twitter, LinkedI
 npm install @fortawesome/free-brands-svg-icons // Icons: Github, Twitter, LinkedIn
 npm install -d styled-components
 npm i --save-dev @types/styled-components
-npm i inquirer-fuzzy-path // https://www.npmjs.com/package/inquirer-fuzzy-path - generator
-npm install --save-dev plop // https://github.com/plopjs/plop - generator
 ```
